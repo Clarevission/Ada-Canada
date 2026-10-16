@@ -1,0 +1,28 @@
+# Secrets: YouTube API keys and login tokens. NEVER commit these.
+secrets/*
+!secrets/README.md
+client_secret*.json
+token*.json
+.env
+
+# Big media files stay on your computer, not in git
+photos/*
+!photos/README.md
+shorts/*
+!shorts/README.md
+*.mp4
+*.mov
+*.MOV
+*.m4v
+
+# Generated thumbnails (keep the originals locally)
+thumbs/*
+!thumbs/README.md
+
+# Python clutter
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+Thumbs.db

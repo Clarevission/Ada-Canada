@@ -1,0 +1,10 @@
+# Needed (thumbnails):
+Pillow>=10
+
+# Optional: finds your face so thumbnail text goes on the other side.
+# Must be version 4.x: version 5 removed the face finder.
+opencv-python-headless>=4.8,<5
+
+# Optional: only for yt_sync.py (auto-filling the tracker)
+google-api-python-client>=2.100
+google-auth-oauthlib>=1.0

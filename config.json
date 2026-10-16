@@ -1,0 +1,76 @@
+{
+  "_note": "Channel settings shared by every script. Edit values here; don't edit the scripts. Last updated 2026-10-16.",
+
+  "channel": {
+    "name": "Ada Canada",
+    "handle": "@adacanada",
+    "channel_id": "UCQ9IbfjGvp1plsiUfWTa38Q",
+    "timezone": "America/Edmonton",
+    "greeting": "Hi friends"
+  },
+
+  "series": {
+    "road": {
+      "name": "Road to 6 Stars",
+      "_name_note": "Sydney is the 7th World Major but does NOT count toward the Six Star medal (only the original six do). Consider 'Road to the Majors'. Niqui decides; change it here and every script follows.",
+      "badge": "ROAD TO 6 STARS",
+      "playlist_name": "Running Diaries",
+      "playlist_id": "PLLhuWe0_POclXCE_VQ4iKdvBOK26yP1T0",
+      "pinned_questions": [
+        "What race is on YOUR bucket list, and what's standing between you and the start line?",
+        "Be honest: what's the hardest kilometre you've ever run? Tell me where it was.",
+        "Are you training for something right now? Drop the race and the date and I'll pray for your build."
+      ],
+      "hashtags": ["#marathontraining", "#runningvlog", "#worldmarathonmajors"]
+    },
+    "faith": {
+      "name": "Faith in Motion",
+      "badge": "FAITH IN MOTION",
+      "playlist_name": "Faith in Motion",
+      "playlist_id": "PLLhuWe0_POck04Yb7ERw5VMYhEAV1Q5H-",
+      "pinned_questions": [
+        "Which verse carries YOU when a run (or a week) gets hard? I'd love to read them all.",
+        "What's one thing you're asking God to help you let go of this season?",
+        "Do you pray while you run, or does running feel like prayer? Tell me how it works for you."
+      ],
+      "hashtags": ["#christianrunner", "#faithandfitness", "#runningwithgod"]
+    }
+  },
+
+  "publish_peaks_edmonton": [
+    {"day": "Sunday",    "peak": "09:00", "publish": "07:30"},
+    {"day": "Thursday",  "peak": "09:30", "publish": "08:00"},
+    {"day": "Saturday",  "peak": "10:30", "publish": "09:00"},
+    {"day": "Wednesday", "peak": "11:00", "publish": "09:30"},
+    {"day": "Friday",    "peak": "12:30", "publish": "11:00"}
+  ],
+  "_peaks_note": "These peaks come from the OLD (mostly immigration, many Nigeria-based) audience. Re-check 'When your viewers are on YouTube' in Studio after ~6 new-niche videos.",
+
+  "targets": {
+    "ctr_pct": 4.0,
+    "engaged_pct": 50.0,
+    "avg_view_pct": 35.0,
+    "fan_funding_watch_hours": 3000,
+    "ads_watch_hours": 4000,
+    "ads_watch_hours_after_feb_2027": 8000,
+    "ads_threshold_change_date": "2027-02-01",
+    "apply_by": "2027-01-31",
+    "net_subs_goal_low": 1000,
+    "net_subs_goal_high": 3000,
+    "net_subs_goal_date": "2027-05-31",
+    "net_subs_baseline_date": "2026-10-14",
+    "timely_upload_days": 7,
+    "music_only_max_seconds": 20,
+    "experiment_videos": 12
+  },
+
+  "thumbnail": {
+    "width": 1280,
+    "height": 720,
+    "white": "#FFFFFF",
+    "yellow": "#FFD400",
+    "outline": "#000000",
+    "badge_blue": "#1E5BFF",
+    "_fonts_note": "Put a bold font (e.g. Anton or Bebas Neue from fonts.google.com) in the fonts/ folder and it will be used first."
+  }
+}
