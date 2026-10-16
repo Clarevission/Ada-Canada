@@ -26,3 +26,6 @@ __pycache__/
 venv/
 .DS_Store
 Thumbs.db
+
+# Download bundle
+*.zip
