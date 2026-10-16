@@ -37,8 +37,8 @@ Anything in **[CHECK: …]** is something only you know. Fill it in or delete it
 
 1. **Python:** install from <https://www.python.org/downloads/>. On Windows, tick **"Add Python to PATH"**.
    Check it: open Terminal (Mac) or PowerShell (Windows) and type `python --version` (on Mac it may be `python3`).
-2. **Get this folder:** `git clone https://github.com/Clarevission/ada-canada.git`, or download the ZIP from GitHub.
-3. **Go into the folder:** `cd ada-canada`
+2. **Get this folder:** `git clone https://github.com/Clarevission/Ada-Canada.git`, or download the ZIP from GitHub.
+3. **Go into the folder:** `cd Ada-Canada`
 4. **Install the libraries:** `pip install -r requirements.txt` (Mac: `pip3`)
 5. **ffmpeg** (for Shorts): Mac `brew install ffmpeg` · Windows `winget install ffmpeg`
 6. **Font (optional, recommended):** download **Anton** from <https://fonts.google.com/specimen/Anton> and put `Anton-Regular.ttf` in `fonts/`. It's the bold, condensed YouTube look.
