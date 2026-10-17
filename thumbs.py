@@ -56,8 +56,9 @@ MAX_BYTES = 2 * 1024 * 1024  # YouTube's thumbnail limit
 
 
 def find_font():
-    for f in sorted((HERE / "fonts").glob("*.[ot]tf")):
-        return str(f)
+    for f in sorted((HERE / "fonts").glob("*.[ot]tf")):  # only bold display fonts, not the episode serifs
+        if any(k in f.name.lower() for k in ("anton", "bebas", "impact", "black", "thumb")):
+            return str(f)
     for f in FONT_CANDIDATES:
         if Path(f).exists():
             return f
