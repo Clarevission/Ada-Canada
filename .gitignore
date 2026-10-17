@@ -29,3 +29,9 @@ Thumbs.db
 
 # Download bundle
 *.zip
+
+# Episode media: recordings, Flow visuals and renders stay on your computer
+episodes/*/audio/*
+episodes/*/visuals/*
+episodes/*/build/*
+!episodes/*/visuals/README.md
